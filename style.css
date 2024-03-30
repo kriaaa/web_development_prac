@@ -1,0 +1,164 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+   
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #e45748;
+  }
+  
+  .services {
+    background-color: #fff;
+    padding: 80px 0;
+  }
+  
+  .services h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    flex: 0 1 calc(33.33% - 20px);
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .card h3 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .card p {
+    font-size: 16px;
+  }
+  
+  .featured {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .featured h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .featured p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+ 
+  .hero {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color:black;
+    background-image: url("images/urbanhome.jpg"); 
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0; 
+  }
+  
+  .hero .container .content {
+    position: relative;
+    z-index: 1; 
+    padding: 100px 0; 
+  }
+  
+  .hero .content h2 {
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .hero .content p {
+    font-size: 25px;
+    margin-top: 55px;
+    margin-bottom: 30px;
+    color: black; 
+    
+  }
+  
+  .hero .content .btn {
+    display: inline-block;
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .hero .content .btn:hover {
+    background-color: #e45748;
+  }
+  

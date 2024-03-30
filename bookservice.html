@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Service</title>
+  <style>
+    /* Your CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-size: cover;
+      background-position: center;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    form {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    input[type="text"],
+    input[type="date"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    input[type="submit"] {
+      background-color: #f4ea9f;
+      color: black;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    input[type="submit"]:hover {
+      background-color: #a39c71;
+    }
+  </style>
+</head>
+<body background="images/servicebg.jpg">
+  <div class="container">
+    <h1>Book a Service</h1>
+    <form id="bookingForm">
+      <label for="serviceName">Service:</label>
+      <select id="serviceName" name="serviceName" required>
+        <option value="">Select a service</option>
+        <option value="deepCleaning">Deep Cleaning</option>
+        <option value="massages">Relaxing Massages</option>
+        <option value="repairs">Expert Repairs</option>
+      </select>
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+      <input type="submit" value="Book Now" >
+          <div id="confirmationMessage" style="display: none;">
+      <p>Thank you for booking! We'll get back to you shortly to confirm your appointment.</p>
+    </div>
+  </div>
+
+ <!-- <script>
+  
+  // Get a reference to the booking form and confirmation message elements
+  const bookingForm = document.getElementById('bookingForm');
+  const confirmationMessage = document.getElementById('confirmationMessage');
+
+  // Add an event listener to the form submission event
+  bookingForm.addEventListener('submit', function(event) {
+    // Prevent the default form submission behavior
+    event.preventDefault();
+
+    // Get the selected service and date from the form
+    const serviceName = document.getElementById('serviceName').value;
+    const date = document.getElementById('date').value;
+
+    // Simulate a booking request (replace with actual booking logic)
+    setTimeout(function() {
+      // Display the confirmation message
+      confirmationMessage.style.display = 'block';
+
+      // Reset the form
+      bookingForm.reset();
+    }, 1000); // Simulate a delay of 1 second for the booking request
+  });
+
+
+    
+  </script> -->
+</body>
+</html>

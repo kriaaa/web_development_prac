@@ -1,0 +1,14 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  color: black;
+  background-image: url("images/urbanhome.jpg"); /* Path to your background image */
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0; /* Adjust top and bottom padding as needed */
+}
+
+.hero .content {
+  margin-top: 50px; /* Adjust margin top to push content down */
+}
